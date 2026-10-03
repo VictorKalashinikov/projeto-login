@@ -36,10 +36,18 @@ section#login {
     width: 250px;
     height: 500px;
     border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.449);
 }
 
 section#login > div#imagem {
+    display: block;
     background: #5f2c82 url(../imagens/pexels-mikegles-30021799.jpg) no-repeat;
     background-size: cover;
     height: 200px;
+    background-position: left bottom;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
 }
