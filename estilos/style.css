@@ -66,15 +66,34 @@ div#formularip > p {
 
 form > div.campo {
     background-color: #5f2c82;
+    border: 3px solid #5f2c82;
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
 div.campo > label {
     display: none;
+}
+
+div.campo > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo input {
+    background-color: #94cfcd;
+    font-size: 1em;
+    width: calc(100%  - 46px);
+    height: 100%;
+    transform: translateY(-14px);
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
 }
 
 form > input[type=submit] {
